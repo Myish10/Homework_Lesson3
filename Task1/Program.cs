@@ -30,7 +30,7 @@ int InvertNum(int num2, int index1)
         num2 /= 10;
     }
     return temp;
-    
+
 }
 
 int number = InputNum("Введите целoе число: ");
