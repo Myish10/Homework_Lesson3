@@ -12,12 +12,12 @@ int InputNum(string message)
 int DigitNumber(int num1)
 {
     int index = 1;
-    while (num1 != 0)
+    while (num1 / 10 != 0)
     {
         num1 /= 10;
         index *= 10;
     }
-    return index / 10;
+    return index;
 }
 
 int InvertNum(int num2, int index1)
